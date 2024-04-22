@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black !important;
+  text-align: center;
+}
+.start-Quiz {
+  display: flex;
+  justify-content: center;
+}
+.start-Quiz-Btn {
+  display: none;
+  padding: 30px;
+  margin-top: 200px;
+  text-align: center;
+  color: white;
+  background-color: #2d3436;
+  height: 250px;
+  width: 500px;
+  border-radius: 20px;
+}
+.start-Quiz-Btn h1 {
+  background: -webkit-linear-gradient(#20bf6b, #8af3bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.start-Quiz-Btn button {
+  padding: 10px 30px;
+  margin: 40px 0px 0px 0px;
+  border: none;
+  border-radius: 20px;
+  background-color: #009432;
+  color: white;
+  font-size: 20px;
+  transition: all 0.2s ease-in;
+}
+.start-Quiz-Btn button:hover {
+  box-shadow: 0 4px 8px 0 #91e6ad, 0 6px 20px 0 #91e6ad;
+}
+.header {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #2d3436;
+  padding: 25px 20px;
+  color: #009432;
+  box-shadow: 0 4px 8px 0 #91e6ad, 0 6px 20px 0 #91e6ad;
+}
+.header h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.header p {
+  font-size: xx-large;
+}
+.header p span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.timer {
+  width: 100%;
+  background-color: #8af3bf;
+}
+.timer p {
+  font-size: x-large;
+  color: #009432;
+  font-weight: normal;
+}
+.displayQuestion {
+  background-color: #009432;
+}
+.Displayoption button {
+  width: 400px;
+  padding: 10px 30px;
+  margin: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #009432;
+  color: white;
+  font-size: 20px;
+  transition: all 0.2s ease-in;
+}
+.Displayoption button:hover {
+  box-shadow: 0 4px 8px 0 #91e6ad, 0 6px 20px 0 #91e6ad;
+}
+.nextQuestion {
+  padding: 10px 30px;
+  width: 100px;
+  margin: 40px 0px 0px 0px;
+  border: none;
+  border-radius: 20px;
+  background-color: #009432;
+  color: white;
+  font-size: 20px;
+  transition: all 0.2s ease-in;
+}
+.nextQuestion:hover {
+  box-shadow: 0 4px 8px 0 #91e6ad, 0 6px 20px 0 #91e6ad;
+}
+.result {
+  width: 200px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  background-color: #2d3436;
+  height: 250px;
+  width: 500px;
+  border-radius: 20px;
+}
+.result p {
+  color: #009432;
+}
+.timerline {
+  height: 3px;
+  background-color: white;
+  width: 100%;
+  padding: 2px 0px;
+  transition: all 0.2s ease-in;
+}
